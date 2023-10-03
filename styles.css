@@ -1,0 +1,136 @@
+div#container {
+  display: flex;
+  border: solid 2px;
+  float: left;
+  width: 800px;
+  height: 1050px;
+  margin-left:400px
+}
+
+
+
+div.left {
+  flex: 1;
+  width:25%;
+  background-color: #929AAB;
+  padding-left: 20px;
+  padding-right: 40px;
+  text-align: center;
+  
+}
+img.profile {
+  width: 200px;
+
+  border-radius: 30%;
+}
+
+div.left p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+
+div.icons {
+  background-color: #EEEEEE;
+  padding: 20px;
+}
+
+img.phone {
+  margin-bottom: 0;
+}
+
+img.phone p{
+  margin-top: 0;
+}
+
+
+img.image:hover {
+  transition:transform 9.5s, ease-in-out;
+  transform:scale(1.15)
+}
+
+.experties {
+  font-size: 20px;
+  
+}
+span.heading {
+  border-bottom: double 5px purple;
+}
+
+
+
+
+div#right {
+  flex: 3;
+  text-align: center;
+  
+  
+}
+
+div.header {
+  background-color: #EEEEEE;
+}
+.head {
+  font-size: 30px;
+}
+span.heading{
+  font-size: 80px;
+}
+em {
+  margin-top: 10px;
+}
+
+div.education {
+  text-align: center;
+  width: 350px;
+  height: 170px;
+  color: white;
+  background-color:  #929AAB;
+  transition:transform 9.5s, ease-in-out;
+  margin-left: 80px;
+  background-image: url(./Images/Book.jpeg);
+}
+
+div.education:hover {
+  color:#e80e90;;
+  transform:scale(1.05) 
+}
+
+
+div.work {
+  text-align: center;
+  width: 350px;
+  height: 170px;
+  color: white;
+  background-color:  #929AAB;
+  transition:transform 9.5s, ease-in-out;
+  margin-left: 80px;
+  background-image: url(./Images/work\ experience.jpeg);
+}
+
+div.work:hover {
+  background-color:rgb(155, 223, 228);
+  transform:scale(1.05);
+  color: #e80e90;;
+  
+}
+
+div.objectives {
+  text-align: center;
+  height: 350px;
+  width: 380px;
+  color: black;
+  background-color:  #EEEEEE;
+  transition:transform 9.5s, ease-in-out;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 50px;
+  
+  
+}
+
+div.objectives:hover {
+  background-color:#2f4b89;
+  transform:scale(1.02) 
+}
+
+
